@@ -8,7 +8,9 @@ main, section, aside{
     padding-bottom: 10px;
     background-color: #DFD9E2;
  }
-
+footer{
+    background-color: #61a0a2;
+}
 .navbar {
     background-color: #61a0a2;
 }
@@ -18,13 +20,23 @@ main, section, aside{
 }
 
 h1, h2{
-    background-color: #84bdbd;
+    background-color: #61a0a2;
 }
 
 .list-group{
     padding-top: 10px;
 }
 .space-list{
-    background-color: #84bdbd;
+    background-color: #61a0a2;
     padding:5px;
+}
+
+.logo{
+    border-radius: 100px;
+    padding: 5px;
+    margin-right: 40px;
+}
+
+.copyright{
+    padding-top: 20px;
 }
