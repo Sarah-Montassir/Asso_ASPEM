@@ -3,8 +3,14 @@
     padding: 0;
 }
 
+article, aside{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #DFD9E2;
+ }
+
 .navbar {
-    background-color: #38686a;
+    background-color: #61a0a2;
 }
 .d-inline-block {
     display: inline-block;
@@ -15,7 +21,14 @@
     text-align: center;
 }
 
-.adapt-color{
-    color: #38686a;
+h1{
+    background-color: #84bdbd;
 }
 
+.list-group{
+    padding-top: 10px;
+}
+.space-list{
+    background-color: #84bdbd;
+    padding:5px;
+}
