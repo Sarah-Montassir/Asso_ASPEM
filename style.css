@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-article, aside{
+main, section, aside{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #DFD9E2;
@@ -12,16 +12,12 @@ article, aside{
 .navbar {
     background-color: #61a0a2;
 }
-.d-inline-block {
-    display: inline-block;
-    border-radius: 50%;
-    margin-right: 7px;
-}
+
 .navbar-brand{
     text-align: center;
 }
 
-h1{
+h1, h2{
     background-color: #84bdbd;
 }
 
