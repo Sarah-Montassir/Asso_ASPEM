@@ -1,76 +1,57 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Association de Soutien aux Parents d'Enfants Malades</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <img class="logo" src="img/logo.png" alt="Logo" width="80px" height="80px" class="d-inline-block">
-                <a class="navbar-brand text-white" href="index.html">A . S . P . E . M . </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="actualites.html">Actualités</a>
-                        </li>
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                En savoir plus
-                            </a>
-                            <ul class="dropdown-menu adapt-color">
-                                <li><a class="dropdown-item adapt-color" href="#">Nos actions</a></li>
-                                <li><a class="dropdown-item" href="#">Nous soutenir</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Contact</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Association de Soutien aux Parents d'Enfants Malades</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon-logo.ico">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <img class="logo" src="img/logo.png" alt="Logo" width="80px" height="80px" class="d-inline-block">
+                    <a class="navbar-brand text-white" href="index.html">A . S . P . E . M . </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="actualites.html">Actualités</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    En savoir plus
+                                </a>
+                                <ul class="dropdown-menu adapt-color">
+                                    <li><a class="dropdown-item adapt-color" href="">Nos actions</a></li>
+                                    <li><a class="dropdown-item" href="">Nous soutenir</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+            </nav>
+        </header>
+        <main>
+        <section class="container">
+            <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/Slide1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <a href="actualites.html"><img src="img/img-grp-slide1.jpeg" class="d-block w-100" alt="Illustration d'un groupe de personne"></a> <!--taille fixe-->
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/Slide2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <a href="#"><img src="img/img-talk-slide2.jpeg" class="d-block w-100" alt="Illustration d'un groupe de parole"></a>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/Slide3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <a href="#"><img src="img/img-don-slide3.jpeg" class="d-block w-100" alt="Illustration faire un don"></a>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -82,77 +63,193 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
-    </main>
-
-    <section>
-        <div class="container text-center ">
-            <div class="row ">
-                <div class="col ">
-                    <h1 class="border border-2 rounded border-dark text-body">Comprendre la maladie de mon enfant</h1>
+        </section>
+        <section>
+            <div class="container text-center ">
+                <div class="row">
+                    <div class="col ">
+                        <h1 class="background-color-title adapt-style-h border border-2 border-secondary text-body">Comprendre la maladie de mon enfant</h1>
+                    </div>
+                </div>
+                <div class=row">
+                    <div class="col">
+                        <ul class="list-group border border-2 border-secondary">
+                            <span class="adapt-style-span fw-bold">Mon enfant a une maladie chronique</span>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo1">Le diabète</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo1" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel1">Le diabète</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo2">L'asthme</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo2" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel2">L'asthme'</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo3">L'épilepsie</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo3" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel3">L'épilepsie</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                        </ul>
+                        </br>
+                        <ul class="list-group border border-2 border-secondary"><span class="adapt-style-span fw-bold">Mon enfant a un cancer</span>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo4">Une leucémie</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo4" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel4">Une leucémie</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo5">Un lymphome</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo5" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel5">Un lymphome</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo6">Un sarcome</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo6" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel6">Un sarcome</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                        </ul>
+                        </br>
+                        <ul class="list-group border border-2 border-secondary">
+                            <span class="adapt-style-span fw-bold">Mon enfant a une maladie génétique</span>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo7">La drépanocytose</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo7" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel7">La drépanocytose</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo8">Le DAAT</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo8" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel8">Le DAAT</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="button" class="list-group-item list-group-item-action border-0 text-decoration-underline mb-0" data-bs-toggle="modal" data-bs-target="#myModalInfo9">La mucoviscidose</button>
+                                <!-- Modal fiche info-->
+                                <div class="modal fade" id="myModalInfo9" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content mx-3">
+                                            <div class="modal-header text-center">
+                                                <h1 class="modal-title" id="myModalInfoLabel9">La mucoviscidose</h1>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                            </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class=row">
-                <div class="col">
-                    <ul class="list-group text-dark"><span class="space-list fw-bold text-decoration-underline">Mon enfant a une maladie chronique :</span>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">Le diabète</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">L'asthme</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">L'épilepsie</a>
-                        </li>
-                    </ul>
-                    <ul class="list-group"><span class="space-list fw-bold text-decoration-underline">Mon enfant a un cancer :</span>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">Une leucémie</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">Un lymphome</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">Un sarcome</a>
-                        </li>
-                    </ul>
-                    <ul class="list-group"><span class="space-list fw-bold text-decoration-underline">Mon enfant a une maladie génétique :</span>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">La drépanocytose</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">Le DAAT</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="list-group-item list-group-item-action">La mucoviscidose</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-
-        </div>
     </section>
-
-    <aside>
-        <div class="container text-center">
-            <h2 class="border border-2 rounded border-dark text-body">Quelques liens utiles</h2>
-                <div class="border border-2 rounded border-dark">
-                    <p>
+        <aside>
+            <div class="container text-center">
+                <h2 class="background-color-title adapt-style-h border border-2 border-secondary text-body">Quelques liens utiles</h2>
+                <div class="div-style-link border border-2 rounded border-dark">
+                    <p class="p-style">
                         <strong>ATDE Pédiadol</strong>
                         <br>
                          Association pour le traitement de la douleur de l'enfant
                         <br>
                         <a href="http://pediadol.org/">http://pediadol.org/</a>
                     </p>
-                    <p>
+                    <p class="p-style">
                         <strong>RHIFOP</strong>
                         <br>
                         Réseau d’île de France d’hématologie oncologie pédiatrique
                         <br>
                         <a href="http://www.rifhop.net/">http://www.rifhop.net/</a>
                     </p>
-                    <p>
+                    <p class="p-style">
                         <strong>L’UNAPECLE</strong>
                         <br>
                         Union des Associations de Parents d’Enfants atteints de Cancer ou Leucémie.
@@ -160,30 +257,32 @@
                         <a href="http://www.unapecle.net/">http://www.unapecle.net/</a>
                     </p>
                 </div>
-
-        </div>
-    </aside>
-
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
-        <ul class="nav col-md-4 justify-content-end list-group">
+            </div>
+        </aside>
+    </main>
+    <footer class="background-color-title d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+        <a href="" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="logo mx-4" src="img/logo.png" alt="Logo" width="150px" height="150px">
+        </a>
+        <ul class="nav col-md-3 justify-content-end list-group">
             <li class="nav-item "><a href="index.html" class="text-white nav-link px-4 ">Accueil</a></li>
             <li class="nav-item"><a href="actualites.html" class="text-white nav-link px-4">Actualités</a></li>
             <li class="nav-item"><a href="#" class="text-white nav-link px-4">Nos actions</a></li>
-            <li class="nav-item"><a href="#" class="text-white nav-link px-4">Nous soutenir</a></li>
+            <li class="nav-item"><a href="#" class="float-right text-white nav-link px-4">Nous soutenir</a></li>
             <li class="nav-item"><a href="#" class="text-white nav-link px-4">Contact</a></li>
+            <li class="nav-item"><a href="#" class="text-white nav-link px-4">Mentions légales</a></li>
         </ul>
-
-
-        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <img class="logo" src="img/logo.png" alt="Logo" width="150px" height="150px">
-        </a>
-        <div class="copyright container" >
-             <p class="text-center text-white" >© 2022 A.S.P.E.M., Tous droits réservés.</p>
+        <div class="copyright container">
+            <p class="text-center text-white">© 2022 A.S.P.E.M., Tous droits réservés.</p>
         </div>
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossOrigin="anonymous"></script>
-</body>
+        <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossOrigin="anonymous"
+        >
+        </script>
+
+    </body>
 </html>

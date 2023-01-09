@@ -3,13 +3,35 @@
     padding: 0;
 }
 
-main, section, aside{
-    padding-top: 10px;
-    padding-bottom: 10px;
+aside{
+    padding-top: 0.1rem;
+    padding-bottom: 0.8rem;
     background-color: #DFD9E2;
  }
+main{
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+    background-color: #DFD9E2;
+}
+section{
+    padding-top: 0rem;
+    background-color: #DFD9E2;
+}
+
+.div-style-link{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/*
+.p-style{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}*/S
 footer{
     background-color: #61a0a2;
+
+    bottom: 0;
 }
 .my-4{
     margin-top: 0;
@@ -22,18 +44,28 @@ footer{
 .navbar-brand{
     text-align: center;
 }
+.adapt-style-h{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 
-h1, h2{
-    background-color: #61a0a2;
 }
+.border-h{
+    border: 3px red;
+}
+.adapt-style-span{
+    background-color: #61a0a2;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.3rem;
+}
+
 
 .list-group{
-    padding-top: 10px;
+    padding-top: 0px;
 }
-.space-list{
-    background-color: #61a0a2;
-    padding:5px;
-}
+
 
 .logo{
     border-radius: 100px;
@@ -47,7 +79,7 @@ h1, h2{
 
 .actions-type{
     font-weight: bold;
-    text-decoration: underline;
+
 }
 
 .texture-title-date{
@@ -55,7 +87,19 @@ h1, h2{
     font-weight: bold;
 }
 
+.background-color-title{
+    background-color: #61a0a2 !important;
+}
 .texture-bg{
-    background-color: yellow;
+    background-color: #DFD9E2;
 }
 
+.text-style-carousel{
+    color: black;
+}
+
+@media screen and (min-width: 900px){
+    body {
+        font-size: 24px;
+    }
+}

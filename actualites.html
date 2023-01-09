@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Association de Soutien aux Parents d'Enfants Malades</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8">
+    <title>Association de Soutien aux Parents d'Enfants Malades</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+          crossorigin="anonymous">
 
-</head>
-<body>
+  </head>
+  <body>
+
     <header>
       <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-          <img class="logo" src="img/logo.png" alt="Logo" width="80px" height="80px">
+          <img class="logo" src="img/logo.png" alt="Logo" width="80px" height="80px" class="d-inline-block">
           <a class="navbar-brand text-white" href="index.html">A . S . P . E . M . </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,39 +43,21 @@
             </ul>
           </div>
         </div>
-
       </nav>
     </header>
 
     <main>
-      <div class="container">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
+      <section class="container">
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/Slide1.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
+              <img src="img/img-grp-slide1.jpeg" class="d-block w-100" alt="Illustration d'un groupe de personne"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Slide2.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
+              <a href="#"><img src="img/img-talk-slide2.jpeg" class="d-block w-100" alt="Illustration d'un groupe de parole"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Slide3.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
+              <a href="#"><img src="img/img-don-slide3.jpeg" class="d-block w-100" alt="Illustration faire un don"></a>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -82,63 +69,222 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
+      </section>
+
+      <section>
+          <div class="container text-center pb-4">
+            <div class="row ">
+              <div class="col ">
+                <h1 class="background-color-title py-3 mt-4 border border-2 border-secondary text-body">Actualités</h1>
+              </div>
+            </div>
+            <div class=row">
+              <div class="col">
+                <ul class=" list-group text-dark"><span class="space-list fw-bold text-decoration-underline py-3 fs-3">Nos dernières actions</span>
+                  <li class="list-group-item px-0 pt-0 pb-3"><span class="list-group-item texture-title-date background-color-title">Samedi 05 décembre 2022</span>
+                    <p class="mt-3 w-50 mx-auto border-0"><span class="actions-type">Atelier (parents):</span></br> Gestion de la douleur au domicile</p>
+                    <!--Bouton modal-->
+                    <button type="button" class="btn btn-outline-dark btn-sm btn-block mt-3" data-bs-toggle="modal" data-bs-target="#myModalForm1">En savoir plus</button>
+                    <!-- Modal fiche info-->
+                    <div class="modal fade" id="myModalForm1" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content mx-3">
+                          <div class="modal-header text-center">
+                            <h1 class="modal-title" id="myModalFormLabel1">Atelier (parents): Gestion de la douleur au domicile</h1>
+                          </div>
+                          <div class="modal-body">
+                            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                          </div>
+                  </li>
+                  <li class="list-group-item px-0 pt-0 pb-3"><span class="list-group-item texture-title-date background-color-title">Samedi 17 décembre 2022</span>
+                    <p class="mt-3 w-50 mx-auto border-0"><span class="actions-type">Conférence (parents):</span></br> La croissance de l'enfant diabétique</p>
+                    <!--Bouton modal-->
+                    <button type="button" class="btn btn-outline-dark btn-sm btn-block mt-3" data-bs-toggle="modal" data-bs-target="#myModalForm2">En savoir plus</button>
+                    <!-- Modal fiche info-->
+                    <div class="modal fade" id="myModalForm2" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content mx-3">
+                          <div class="modal-header text-center">
+                            <h1 class="modal-title" id="myModalFormLabel2">Conférence (parents): La croissance de l'enfant diabétique</h1>
+                          </div>
+                          <div class="modal-body">
+                            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores assumenda beatae cumque doloribus enim excepturi explicabo inventore mollitia natus, nisi, numquam obcaecati quia suscipit tenetur vero vitae. Architecto, odit.</span><span>Blanditiis eligendi exercitationem iusto praesentium provident repellat similique sit. A, aperiam assumenda beatae deleniti ducimus eius expedita impedit inventore labore modi perspiciatis quia quidem, repellendus similique tempora temporibus ullam veritatis?</span><span>Ad, aperiam architecto aspernatur at atque blanditiis corporis distinctio doloribus dolorum ducimus esse fuga hic, magni mollitia placeat porro, quae qui quidem quo ullam. Alias aperiam neque rem ullam. Quis.</span><span>Amet error fuga id ipsum nisi nulla numquam, unde voluptate? Alias animi consectetur consequuntur dicta earum itaque iure nam, obcaecati optio qui, quia reprehenderit similique sint tempora tenetur vero voluptate.</span><span>Deserunt nemo quam sunt ullam unde! Alias consectetur consequatur delectus dolor dolorum, eligendi error esse facilis, hic in itaque, modi odit quaerat quisquam reprehenderit ullam voluptas? Aut, cumque, reprehenderit. Ad!</span><span>A amet delectus dolorem, ea eaque earum error excepturi facilis fuga harum laboriosam maxime modi neque nihil nulla numquam, obcaecati qui quis ratione rerum sit sunt tempora ullam voluptates voluptatum.</span><span>Aut, facere iste labore maxime necessitatibus nemo pariatur ullam vero. A ab aliquam architecto asperiores at, dolores dolorum ea et expedita libero quae quam veniam voluptatibus. Accusamus dignissimos laborum tempora.</span><span>A ab adipisci deleniti distinctio ipsam labore libero mollitia possimus quis vitae. Aliquam aperiam assumenda, dignissimos, eligendi est, excepturi expedita incidunt itaque molestias odit perspiciatis quos repellendus unde velit veniam.</span><span>Debitis doloribus ea esse, itaque officiis optio quaerat quidem quod quos sint. Culpa debitis delectus itaque, libero omnis quos repellat tenetur totam? Dignissimos, dolorem natus omnis quis sunt tenetur velit.</span><span>Architecto, aspernatur doloremque dolores, ducimus enim, est et exercitationem illo ipsa nam quia quos rerum sit! At deserunt minus modi neque odio officia omnis, perspiciatis quasi quidem quisquam sit velit?</span><span>Ab cupiditate eius id laborum libero magni minus, nisi odit officiis, optio pariatur perferendis quod vel! Cupiditate dignissimos dolor dolore doloremque, eius, error et in incidunt itaque, perspiciatis rerum unde.</span><span>Adipisci architecto aspernatur consequuntur delectus dolor, eligendi, error hic itaque, nihil non repellat sapiente tempore. Consectetur cumque ducimus ipsum iure magni nam obcaecati officiis, praesentium quo reprehenderit, unde ut veritatis!</span><span>Ea, labore, nam. At beatae deleniti dignissimos doloribus enim eos et illum inventore iure iusto molestiae natus, odit officiis praesentium quidem repellat repudiandae. Animi fugiat inventore quibusdam quisquam quos suscipit!</span><span>Accusantium asperiores doloribus eius, error, eum exercitationem facilis illum libero, maxime obcaecati quis quos sint tenetur ut voluptate? Aperiam consequuntur delectus dolores fuga laudantium placeat, quidem quisquam quod sapiente similique.</span><span>Blanditiis cum dolorem earum iste necessitatibus. Ab aliquam at consequatur debitis doloremque est eveniet exercitationem iure iusto labore magni modi nulla, obcaecati porro possimus quam quas quidem rem sapiente veniam?</span></p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                          </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class=" list-group text-dark"><span class="space-list fw-bold text-decoration-underline py-3 fs-3">Nos prochaines actions</span>
+                  <li class="list-group-item px-0 pt-0 pb-3"><span class="list-group-item texture-title-date background-color-title">Samedi 07 janvier 2023</span>
+                    <p class="mt-3 w-50 mx-auto border-0"><span class="actions-type">Groupe de parole (parents):</span></br> Vivre au quotidien avec un cancer</p>
+                    <!-- Bouton modal -->
+                    <button type="button" class="btn btn-outline-dark btn-sm btn-block mt-3" data-bs-toggle="modal" data-bs-target="#myModalForm3">
+                      M'inscrire
+                    </button>
+
+                    <!-- Modal formulaire d'inscription-->
+                    <div class="modal fade" id="myModalForm3" tabindex="-1" aria-labelledby="myModalFormLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content mx-3">
+                          <div class="modal-header">
+                            <h1 class="modal-title" id="myModalFormLabel3">Groupe de parole (parents): Vivre au quotidien avec un cancer</h1>
+                          </div>
+
+                          <!--Formulaire d'inscription-->
+                          <div class="modal-body">
+                            <form>
+
+                              <div class="input-group p-2">
+                                <span class="input-group-text">M. ou Mme</span>
+                                <input type="text" aria-label="Prénom" class="form-control" placeholder="Prénom" required>
+                                <input type="text" aria-label="Nom" class="form-control" placeholder="Nom" required>
+                              </div>
+
+                              <div class="input-group p-2">
+                                <span class="input-group-text">Email</span>
+                                <input type="email" class="form-control" id="exampleFormControlInput2S" placeholder="Pour vous contacter si besoin" required="required">
+                              </div>
+
+                              <div class="p-2 mb-3">
+                                <div class="p-2">
+                                <span class="fw-semibold p-2">Combien de parents participeront ?</span>
+                                </div>
+                                <select class="form-select" aria-label="Default select example">
+                                <option value="1" selected>Un parent seul</option>
+                                <option value="2">Les deux parents</option>
+                                </select>
+                              </div>
+
+                              <div class="ml-auto mr-auto p-3">
+                                <div class="form-check">
+                                  <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck1" aria-describedby="invalidCheck1Feedback" required>
+                                  <label class="form-check-label" for="invalidCheck3">
+                                    Je m'engage à prévenir l'association de toute annulation au moins 24h avant.
+                                  </label>
+                                  <div id="invalidCheck1Feedback" class="invalid-feedback">
+                                    Vous devez accepter pour valider votre inscription.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                <button type="button submit" class="btn btn-primary">Valider mon inscription</button>
+                              </div>
+                            </form>
+                        </div>
+                      </div>
+                    </div>
+                    </li>
+
+                  <li class="list-group-item px-0 pt-0 pb-3"><span class="list-group-item texture-title-date background-color-title">Samedi 21 janvier 2023</span>
+                    <p class="mt-3 w-50 mx-auto border-0"><span class="actions-type">Atelier (parents/enfants):</span></br> Je dessine ma maladie</p>
+                    <!-- Bouton modal -->
+                    <button type="button" class="btn btn-outline-dark btn-sm btn-block mt-3" data-bs-toggle="modal" data-bs-target="#myModalForm4">
+                      M'inscrire
+                    </button>
+
+                    <!-- Modal formulaire d'inscription-->
+                    <div class="modal fade" id="myModalForm4" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content mx-3">
+                          <div class="modal-header">
+                            <h1 class="modal-title" id="myModalFormLabel4">Atelier (parents/enfants): Je dessine ma maladie</h1>
+                          </div>
+
+                          <!--Formulaire d'inscription-->
+                          <div class="modal-body">
+                            <form>
+
+                              <div class="input-group p-2">
+                                <span class="input-group-text">M. ou Mme</span>
+                                <input type="text" aria-label="Prénom" class="form-control" placeholder="Prénom" required>
+                                <input type="text" aria-label="Nom" class="form-control" placeholder="Nom" required>
+                              </div>
+
+                              <div class="input-group p-2">
+                                <span class="input-group-text">Votre enfant</span>
+                                <input type="text" aria-label="Prénom" class="form-control" placeholder="Prénom" required>
+                                <input type="text" aria-label="Nom" class="form-control" placeholder="Nom" required>
+                              </div>
+
+                              <div class="input-group p-2">
+                                <span class="input-group-text">Son age</span>
+                                <input type="number" name="age" aria-label="Age" class="form-control" placeholder="Quel est son age ?" min="3" max="18" required>
+
+                              </div>
+
+                              <div class="input-group p-2">
+                                <span class="input-group-text">Email</span>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Pour vous contacter si besoin" required="required">
+                              </div>
+
+                              <div class="p-2 mb-3">
+                                <div class="p-2">
+                                  <span class="fw-semibold p-2">Combien de parents participeront ?</span>
+                                </div>
+                                <select class="form-select" aria-label="Default select example">
+                                  <option value="1" selected>Un parent seul</option>
+                                  <option value="2">Les deux parents</option>
+                                </select>
+                              </div>
+
+                              <div class="ml-auto mr-auto p-3">
+                                <div class="form-check">
+                                  <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                                  <label class="form-check-label" for="invalidCheck3">
+                                    Je m'engage à prévenir l'association de toute annulation au moins 24h avant.
+                                  </label>
+                                  <div id="invalidCheck3Feedback" class="invalid-feedback">
+                                    Vous devez accepter pour valider votre inscription.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                <button type="button submit" class="btn btn-primary">Valider mon inscription</button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
 
-    <section>
-      <div class="container text-center ">
-        <div class="row ">
-          <div class="col ">
-            <h1 class="border border-2 rounded border-dark text-body">Actualités</h1>
-          </div>
-        </div>
-        <div class=row">
-          <div class="col">
-            <ul class=" list-group text-dark"><span class="space-list fw-bold text-decoration-underline">Nos dernières actions</span>
-              <li class=" list-group-item"><span class="texture-title-date">Samedi 05 décembre 2022</span>
-                <a href="#" class=" list-group-item list-group-item-action"><span class="actions-type">Atelier (parents):</span></br> Gestion de la douleur au domicile</a>
-              </li>
-              <li class="list-group-item"><span class="texture-title-date">Samedi 17 décembre 2022</span>
-                <a href="#" class="list-group-item list-group-item-action"><span class="actions-type">Conférence (parents):</span></br> La croissance de l'enfant diabétique</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <ul class=" list-group text-dark"><span class="space-list fw-bold text-decoration-underline">Nos prochaines actions</span>
-              <li class=" list-group-item"><span class="texture-title-date">Samedi 07 janvier 2023</span>
-                <a href="#" class=" list-group-item list-group-item-action"><span class="actions-type">Groupe de parole (parents):</span></br> Vivre au quotidien avec un cancer</a>
-                <button type="button" class="btn btn-outline-dark btn-sm btn-block mt-2 ">M'inscrire</button>
-              </li>
-              <li class="list-group-item"><span class="texture-title-date">Samedi 21 janvier 2023</span>
-                <a href="#" class="list-group-item list-group-item-action"><span class="actions-type">Atelier (parents/enfants):</span></br> Je dessine ma maladie</a>
-                <button type="button" class="btn btn-outline-dark btn-sm btn-block mt-2 ">M'inscrire</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <ul class="nav col-md-4 justify-content-end list-group">
+    <footer class="background-color-title d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+      <a href="/"
+         class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img class="logo mx-4" src="img/logo.png" alt="Logo" width="150px" height="150px">
+      </a>
+      <ul class="nav col-md-3 justify-content-end list-group">
         <li class="nav-item "><a href="index.html" class="text-white nav-link px-4 ">Accueil</a></li>
         <li class="nav-item"><a href="actualites.html" class="text-white nav-link px-4">Actualités</a></li>
         <li class="nav-item"><a href="#" class="text-white nav-link px-4">Nos actions</a></li>
-        <li class="nav-item"><a href="#" class="text-white nav-link px-4">Nous soutenir</a></li>
+        <!--</ul>
+        <ul class="nav col-md-4 justify-content-end list-group">-->
+        <li class="nav-item"><a href="#" class="float-right text-white nav-link px-4">Nous soutenir</a></li>
         <li class="nav-item"><a href="#" class="text-white nav-link px-4">Contact</a></li>
+        <li class="nav-item"><a href="#" class="text-white nav-link px-4">Mentions légales</a></li>
       </ul>
-
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-        <img class="logo" src="img/logo.png" alt="Logo" width="150px" height="150px">
-      </a>
-      <div class="copyright container" >
-        <p class="text-center text-white" >© 2022 A.S.P.E.M., Tous droits réservés.</p>
+      <div class="copyright container">
+        <p class="text-center text-white">© 2022 A.S.P.E.M., Tous droits réservés.</p>
       </div>
     </footer>
 
-    <script crossOrigin="anonymous"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+          crossorigin="anonymous"></script>
 
-</body>
+
+  </body>
 </html>
