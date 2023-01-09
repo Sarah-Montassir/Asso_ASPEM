@@ -22,12 +22,7 @@ section{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-/*
-.p-style{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-}*/S
+
 footer{
     background-color: #61a0a2;
 
@@ -70,7 +65,7 @@ footer{
 .logo{
     border-radius: 100px;
     padding: 5px;
-    margin-right: 40px;
+    margin-right:40px;
 }
 
 .copyright{
