@@ -1,100 +1,195 @@
+
+/* CSS mobile first*/
 * {
     margin: 0;
     padding: 0;
 }
 
-aside{
-    padding-top: 0.1rem;
-    padding-bottom: 0.8rem;
-    background-color: #DFD9E2;
- }
-main{
-    padding-top: 1.5rem;
-    padding-bottom: 0rem;
-    background-color: #DFD9E2;
-}
-section{
-    padding-top: 0rem;
-    background-color: #DFD9E2;
-}
-
-.div-style-link{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-footer{
-    background-color: #61a0a2;
-
-    bottom: 0;
-}
-.my-4{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+/*Barre de navigation*/
 .navbar {
     background-color: #61a0a2;
 }
 
-.navbar-brand{
+.navbar-brand {
     text-align: center;
 }
-.adapt-style-h{
+
+/*Contenu principal de la page*/
+main {
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+    background-color: #DFD9E2;
+}
+
+section {
+    padding-top: 0rem;
+    background-color: #DFD9E2;
+}
+
+aside {
+    padding-top: 0.1rem;
+    padding-bottom: 0.8rem;
+    background-color: #DFD9E2;
+ }
+
+
+/*Style du titre*/
+.adapt-style-h {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 
 }
-.border-h{
-    border: 3px red;
-}
-.adapt-style-span{
+
+/*Style du sou-titre en span*/
+.adapt-style-span {
     background-color: #61a0a2;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     font-size: 1.3rem;
 }
 
-
-.list-group{
+/*Padding des articles dans actualités*/
+.list-group {
     padding-top: 0px;
 }
 
+/*Titres des différentes actions en gras*/
+.actions-type {
+    font-weight: bold;
 
-.logo{
+}
+/*Date des actualités en gras*/
+.texture-title-date {
+    font-weight: bold;
+}
+
+/*Couleur de fond des titres*/
+.background-color-title {
+    background-color: #61a0a2 !important;
+}
+
+/*Pied de page*/
+footer {
+    background-color: #61a0a2;
+    bottom: 0;
+}
+
+.logo {
     border-radius: 100px;
     padding: 5px;
     margin-right:40px;
 }
 
-.copyright{
+.copyright {
     padding-top: 20px;
 }
 
-.actions-type{
-    font-weight: bold;
 
-}
+/*Media query pour affichage mobile small*/
+@media only screen and (max-width: 768px){
 
-.texture-title-date{
-    color: #61a0a2;
-    font-weight: bold;
-}
-
-.background-color-title{
-    background-color: #61a0a2 !important;
-}
-.texture-bg{
-    background-color: #DFD9E2;
-}
-
-.text-style-carousel{
-    color: black;
-}
-
-@media screen and (min-width: 900px){
-    body {
-        font-size: 24px;
+    .desktopNav {
+        display: none !important;
     }
+    .mobileNav {
+        display: flex !important;
+    }
+
+    .logo-margin {
+        margin-right: 0px;
+    }
+
+    .nav-brand-size {
+        font-size: 1rem !important;
+    }
+}
+
+/*Media query pour affichage tablette*/
+@media only screen and (min-width: 769px) and (max-width: 1055px){
+
+    .desktopNav {
+        display: none !important;
+    }
+    .mobileNav {
+        display: flex !important;
+    }
+
+    .nav-brand-size {
+        font-size: 1.8rem !important;
+    }
+}
+
+/*Media query pour transition fluide sur écran plus large*/
+@media only screen and (min-width: 1056px) and (max-width: 1199px){
+
+    .desktopNav {
+        display: flex !important;
+    }
+
+    .mobileNav {
+        display: none !important;
+    }
+
+    .margin-adapt {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+/*Media query pour affichage sur écran d'ordinateur*/
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+
+    .desktopNav {
+        display: flex !important;
+    }
+
+    .mobileNav {
+        display: none !important;
+    }
+
+    header {
+        font-size: 1.3rem !important;
+    }
+
+    .nav-brand-size {
+        font-size: 1.5rem !important;
+    }
+
+    .margin-adapt {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+
+    }
+}
+
+/*Media query pour affichage sur écran très large d'ordinateur*/
+@media only screen and (min-width: 1400px) {
+
+    .desktopNav {
+        display: flex !important;
+    }
+
+    .mobileNav {
+        display: none !important;
+    }
+
+    header {
+        font-size: 1.6rem !important;
+    }
+
+    body, span, p, button {
+        font-size: 1.5rem !important;
+    }
+
+    .margin-adapt {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .nav-brand-size {
+        font-size: 1.8rem !important;
+    }
+
 }
